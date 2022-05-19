@@ -3,6 +3,10 @@ body {
     color: white;
 }
 
+img {
+    width: 100%;
+}
+
 ul {
     list-style-type: none;
     padding: 0;
@@ -47,12 +51,12 @@ header nav {
 
 /* MAIN */
 /* section-1 */
+.ms_avatar-img {
+    width: 20rem;
+}
 /* section-2-portfolio */
-.ms_img-portfolio {
-
-    /* TEST */
-    background-color: lightblue;
-    border: 1px solid blue;
+.ms_img-portfolio img {
+    border-radius: 10px;
 }
 /* section-3-about */
 .about-content{
