@@ -13,6 +13,10 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+#aqua-background {
+    background-color: #1abc9c;
+}
 /* HEADER */
 header {
     height: 80px;
@@ -26,4 +30,10 @@ header nav {
 }
 .main-menu li {
     display: inline-block;
+}
+
+/* MAIN */
+/* section-1 */
+.ms_sec1-padd {
+    padding: 2rem 0;
 }
