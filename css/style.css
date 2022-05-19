@@ -17,6 +17,10 @@ a {
 #aqua-background {
     background-color: #1abc9c;
 }
+
+#dark-test {
+    color: #2c3e50;
+}
 /* HEADER */
 header {
     height: 80px;
@@ -36,4 +40,11 @@ header nav {
 /* section-1 */
 .ms_sec1-padd {
     padding: 2rem 0;
+}
+/* section-2-portfolio */
+.ms_img-portfolio {
+
+    /* TEST */
+    background-color: lightblue;
+    border: 1px solid blue;
 }
