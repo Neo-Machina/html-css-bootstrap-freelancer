@@ -14,12 +14,16 @@ a {
     color: inherit;
 }
 
-#aqua-background {
+.aqua-background {
     background-color: #1abc9c;
 }
 
-#dark-test {
+.dark-text {
     color: #2c3e50;
+}
+
+.custom_container {
+
 }
 /* HEADER */
 header {
@@ -47,4 +51,22 @@ header nav {
     /* TEST */
     background-color: lightblue;
     border: 1px solid blue;
+}
+/* section-3-about */
+.custom_container {
+    width: 70%;
+    margin: 0 auto;
+
+    /* test */
+    background-color: lightgreen;
+}
+.about-content{
+    
+    /* TEST */
+    background-color: lightcoral;
+    border: 1px solid red;
+}
+/* download-button */
+.down-button {
+    margin-top: 1rem;
 }
