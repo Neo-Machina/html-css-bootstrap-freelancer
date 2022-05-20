@@ -167,9 +167,26 @@
                     </div>
 
                     <div class="ms_contact-content">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore voluptatum illum alias itaque. Dolor, autem tenetur ex quos laborum quibusdam ducimus quam in molestiae ipsum quia ipsa amet commodi repellendus!
-                        Voluptate, optio impedit molestias nisi ratione dolores sequi deleniti hic repellat dignissimos iure ducimus aut neque sint. Adipisci nam laboriosam saepe sint dignissimos magni nisi aliquam, rerum dolore velit vero?
-                        Sed, est debitis repellendus, quia ducimus voluptate, repudiandae fugiat quas sit illo deleniti officiis necessitatibus dolorum. A rerum natus consequuntur ullam obcaecati sit alias error necessitatibus. Odio alias maxime adipisci!
+                        <!-- form -->
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label visually-hidden">Name</label>
+                                <input type="text" class="form-control color-input" id="name" aria-describedby="emailHelp" placeholder="Name">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email-address" class="form-label visually-hidden">Email Address</label>
+                                <input type="text" class="form-control color-input" id="email-adress" aria-describedby="emailHelp" placeholder="Email Address">
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone-number" class="form-label visually-hidden">Phone Number </label>
+                                <input type="text" class="form-control color-input" id="phone-number" placeholder="Phone Number">
+                            </div>
+                            <div class="mb-3">
+                                <label for="text-area" class="form-label visually-hidden">Message</label>
+                                <textarea class="form-control color-input" id="text-area" rows="3" placeholder="Message"></textarea>
+                              </div>
+                            <button type="submit" class="btn ms_green-no-border-bt">Send</button>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -179,7 +196,7 @@
     <!-- FOOTER -->
     <footer>
         <!-- FOOTER-TOP -->
-        <section id="blue-background">
+        <div id="blue-background">
             <div class="container">
                 <div class="row gy-4">
                     <div class="col-12 col-md-4">
@@ -204,14 +221,14 @@
                     <div class="col-12 col-md-4">
                         <div class="ms_ft-top">
                             <div>ABOUT FREELANCER</div>
-                            <div>Freelance is a free to use, open source Bootstrap theme created by <span>Start Bootstrap</span>. </div>
+                            <div>Freelance is a free to use, open source Bootstrap theme created by <a href="#">Start Bootstrap</a>.</div>
                         </div>
                     </div>
                 </div>
             </div>  
-        </section>
+        </div>
         <!-- FOOTER-BOTTOM -->
-        <section class="footer-bottom">
+        <div class="footer-bottom">
             <div class="container">
                 <div class="text-center">
                     <div class="ms_ft-bottom">
@@ -219,7 +236,7 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
     </footer>
 </body>
 </html>
