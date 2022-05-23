@@ -169,16 +169,13 @@ textarea.form-control:focus {
 .ms_ft-top h4 {
     font-size: 18px;
 }
-.ms_flex_item {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
 .ms_flex_item li {
+    display: inline-block;
+}
+.ms_flex_item a {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     width: 20px;
     height: 20px;
     border: 1px solid white;
